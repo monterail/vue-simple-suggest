@@ -1,0 +1,119 @@
+{
+  "_from": "git+https://github.com/RadoMark/vue-simple-suggest.git",
+  "_id": "vue-simple-suggest@1.8.2",
+  "_inBundle": false,
+  "_integrity": "sha1-OiY+exDid2dQb7MR8uFDMCxyWoQ=",
+  "_location": "/vue-simple-suggest",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://github.com/RadoMark/vue-simple-suggest.git",
+    "rawSpec": "git+https://github.com/RadoMark/vue-simple-suggest.git",
+    "saveSpec": "git+https://github.com/RadoMark/vue-simple-suggest.git",
+    "fetchSpec": "https://github.com/RadoMark/vue-simple-suggest.git",
+    "gitCommittish": "master"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/RadoMark/vue-simple-suggest.git#6b61bd070066f16dfd08285da571e491f20772f6",
+  "_spec": "git+https://github.com/RadoMark/vue-simple-suggest.git",
+  "_where": "/Users/monteadmin/RubymineProjects/afriwise-web",
+  "author": {
+    "name": "KazanExpress"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "bugs": {
+    "url": "https://github.com/KazanExpress/vue-simple-suggest/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Feature-rich autocomplete component for Vue.js",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-es6-promise": "^1.1.1",
+    "babel-plugin-transform-async-to-promises": "^0.5.7",
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "copy-webpack-plugin": "^4.5.1",
+    "core-js": "^2.5.6",
+    "css-loader": "^0.28.11",
+    "es6-promise": "^4.2.4",
+    "file-loader": "^1.1.4",
+    "fs-extra": "^5.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "markdown-styles": "^3.1.10",
+    "rollup": "^0.57.1",
+    "rollup-plugin-babel": "^3.0.4",
+    "rollup-plugin-commonjs": "^9.1.3",
+    "rollup-plugin-css-only": "^0.4.0",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-regenerator": "^0.5.4",
+    "rollup-plugin-uglify": "^3.0.0",
+    "rollup-plugin-vue2": "^0.8.0",
+    "vue": "^2.5.16",
+    "vue-loader": "^14.2.2",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.8.2",
+    "webpack-cli": "^2.1.3",
+    "webpack-dev-server": "^3.1.4",
+    "whatwg-fetch": "^2.0.4"
+  },
+  "esnext": "lib/index.js",
+  "homepage": "https://kazanexpress.github.io/vue-simple-suggest/",
+  "keywords": [
+    "Vue",
+    "Vue.js",
+    "Autocomplete",
+    "Suggest",
+    "Suggestion",
+    "REST",
+    "Search",
+    "list",
+    "Webpack",
+    "customizable",
+    "controllable",
+    "component",
+    "hello to tag readers",
+    "feature-rich",
+    "simple",
+    "API",
+    "explained",
+    "comprehensive",
+    "config-less",
+    "JavaScript",
+    "JS"
+  ],
+  "license": "MIT",
+  "main": "dist/cjs.js",
+  "module": "dist/es6.js",
+  "name": "vue-simple-suggest",
+  "peerDependencies": {
+    "vue": "^2.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KazanExpress/vue-simple-suggest.git"
+  },
+  "scripts": {
+    "build": "node build",
+    "dev": "npm run readme && webpack-dev-server --mode development --config example/webpack.config.js --open --hot",
+    "docs": "npm run readme && webpack --mode production --config example/webpack.config.js",
+    "major": "npm version major && npm publish && git push",
+    "minor": "npm version minor && npm publish && git push",
+    "patch": "npm version patch && npm publish && git push",
+    "preversion": "npm run docs && npm run build && (git add .) && git commit -m Docs-and-build.",
+    "readme": "generate-md --input ./README.md --output ./example/src"
+  },
+  "unpkg": "dist/umd.js",
+  "version": "1.8.2"
+}
